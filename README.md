@@ -19,6 +19,7 @@ Para quem está com seu notebook pessoal:
 ### FERRAMENTAS e ESPECIFICAÇÕES:
 
 - Acesse o site do interpretador [JSFiddle](https://jsfiddle.net) para testar os códigos.  
-    - Antes de iniciar, procure no canto esquerdo da página por "**Resources**" clique nele e adicione a URL https://getfirebug.com/firebug-lite-debug.js, logo após clique em "**+**"
+    - Antes de iniciar, procure no canto esquerdo da página por "**Resources**" clique nele e adicione a URL https://getfirebug.com/firebug-lite-debug.js, logo após clique em "**+**"  
+- Acesse http://babeljs.io/en/repl.html para ver a transformação (transpilação) do código ES6 para o ES5.
 - Todos os códigos se encontram na pasta [Códigos](Códigos).
 - A apresentação se encontra [aqui](Oficina_Prática_de_JavaScript_Dia_1.pdf).
