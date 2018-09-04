@@ -1,27 +1,27 @@
 //Exemplo Imperativo
-function buscaProdutosImperativo(produtos) {
+function buscaAlunosImperativo(alunos) {
 	var selecionados = [];
-	for (var i = 0; i < produtos.length; i++) {
-		if (produtos[i].preco < 3.00) {
-			buscaProdutosImperativo.push(produtos[i].nome);
+	for (var i = 0; i < alunos.length; i++) {
+		if (alunos[i].idade < 18) {
+			selecionados.push(alunos[i].nome);
 		}
 	}
 	return selecionados;
 }
 
 //Exemplo Funcional
-function buscaProdutosFuncional(produtos) {
-	var item = function(item) { return item.preco < 3.00; };
-	var pegarNome = function(item) { return item.nome };
-	return produtos.filter(item).map(pegarNome);
+function buscaAlunosFuncional(alunos) {
+	var info = function(info) { return info.idade < 18; };
+	var pegarNome = function(info) { return info.nome };
+	return alunos.filter(info).map(pegarNome);
 }
 
 //Executando os Exemplos
-var frutas = [
-	{ nome: "Laranja", preco: 3.99 },
-	{ nome: "Melancia", preco: 2.99 },
-	{ nome: "Banana", preco: 1.99 }
+var infos = [
+	{ nome: "Fulano", idade: 25 },
+	{ nome: "Cicrano", idade: 16 },
+	{ nome: "Beltrano", idade: 22 }
 ];
 
-console.log(buscaProdutosImperativo(frutas));
-console.log(buscaProdutosFuncional(frutas));
+console.log(buscaAlunosImperativo(infos));
+console.log(buscaAlunosFuncional(infos));

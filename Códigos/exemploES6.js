@@ -1,7 +1,7 @@
 class Estudante {
 	constructor (aluno, curso) {
-		this.aluno = aluno;
-		this.curso = curso;
+    	this.aluno = aluno;
+    	this.curso = curso;
 	}
 
 	displayInfo() {

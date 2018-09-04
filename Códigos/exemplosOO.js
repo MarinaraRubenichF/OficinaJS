@@ -1,4 +1,5 @@
 //Exemplo Orientado a Objetos
+//Utilizando Construtor ou Função
 function Aluno () {
  var nome;
  var idade;
